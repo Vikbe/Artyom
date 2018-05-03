@@ -40,7 +40,8 @@ namespace Artyom
             public string Token;
             public string CmdPrefix;
             public string GoogleApi;
-            public string SearchId;
+            public string GSearchId;
+            public string DSkyApi;
         }
 
 

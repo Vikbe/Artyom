@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Artyom;
 
-namespace Disco.Services
+namespace Artyom.Services
 {
     class GoogleSearch
     {
         private static string apiKey = Config.bot.GoogleApi;
-        private static string cx = Config.bot.SearchId;
+        private static string cx = Config.bot.GSearchId;
 
         public static CustomsearchService Service = new CustomsearchService(
             new BaseClientService.Initializer
